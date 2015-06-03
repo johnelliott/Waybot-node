@@ -9,8 +9,7 @@ module.exports = {
 	},
 	module: {
 		loaders: [
-			// use .es6.js files to do babel
-			{test: /\.js$/, loader: "babel"}
+			{ test: /\.js$/, loader: "babel" }
 		]
 	},
 	plugins: [
